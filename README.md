@@ -1,12 +1,12 @@
-# Task Management Application
+# Task Manager Application
 
-A full-stack task management application built using the **MERN Stack (MongoDB, Express.js, React.js, and Node.js)**. TaskFlow helps users manage their daily activities by creating, updating, viewing, and deleting tasks through a simple and user-friendly interface.
+A full-stack task management application built using the **MERN Stack (MongoDB, Express.js, React.js, and Node.js)**. App helps users manage their daily activities by creating, updating, viewing, and deleting tasks through a simple and user-friendly interface.
 
 ---
 
 ## 📌 Project Overview
 
-TaskFlow is a task management web application that allows registered users to manage their personal tasks efficiently. Users can register, log in, create tasks, update task details, track task status, and delete tasks.
+App is a task management web application that allows registered users to manage their personal tasks efficiently. Users can register, log in, create tasks, update task details, track task status, and delete tasks.
 
 The application uses a REST API backend with MongoDB for data storage and React for the frontend user interface.
 
@@ -157,7 +157,7 @@ Create a `.env` file in the backend root directory:
 
 ```env
 PORT=5000
-MONGODB_URI=mongodb://127.0.0.1:27017/taskflow
+MONGODB_URI=mongodb://127.0.0.1:27017/App
 JWT_SECRET=your_secret_key
 ```
 
@@ -205,7 +205,7 @@ http://localhost:5173
 
 ## 🔐 Authentication
 
-TaskFlow uses authentication to protect user-specific resources.
+App uses authentication to protect user-specific resources.
 
 - Users can register and log in.
 - Passwords should be securely hashed before storing in the database.
@@ -321,7 +321,7 @@ screenshots/
 Example:
 
 ```markdown
-![TaskFlow Dashboard](screenshots/dashboard.png)
+![App Dashboard](screenshots/dashboard.png)
 ```
 
 ---
