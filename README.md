@@ -130,13 +130,13 @@ backend/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/kur1an/task-manager-app.git>
 ```
 
 Navigate to the project folder:
 
 ```bash
-cd TaskFlow
+cd 
 ```
 
 ### 2. Backend Setup
